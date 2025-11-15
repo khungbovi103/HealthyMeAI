@@ -1,0 +1,47 @@
+{
+  "name": "health-me-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "eslint .",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "latest",
+    "@ant-design/charts": "^2.6.6",
+    "@ant-design/icons": "^6.1.0",
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@hookform/resolvers": "^3.10.0",
+    "@reduxjs/toolkit": "^2.10.1",
+    "@vercel/analytics": "1.3.1",
+    "ai": "latest",
+    "antd": "^5.28.0",
+    "autoprefixer": "^10.4.20",
+    "cmdk": "1.0.4",
+    "date-fns": "4.1.0",
+    "embla-carousel-react": "8.5.1",
+    "html2canvas": "^1.4.1",
+    "input-otp": "1.4.1",
+    "lucide-react": "^0.454.0",
+    "next": "16.0.0",
+    "next-themes": "^0.4.6",
+    "react": "19.2.0",
+    "react-day-picker": "9.8.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "^7.60.0",
+    "react-redux": "^9.2.0",
+    "react-resizable-panels": "^2.1.7",
+    "react-to-pdf": "^2.0.1",
+    "vaul": "^0.9.9",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8.5",
+    "typescript": "^5"
+  }
+}
